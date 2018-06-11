@@ -1,28 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
+import Header from './Header';
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="expanded row header">
-          <div className="clearfix">
-            <div className="float-left logo">
-              <img src="http://www.iconninja.com/files/409/4/1006/axe-icon.svg" alt="axe" />
-            </div>
-            <div className="float-right nav-links">
-              <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Log in</a>
-            </div>
-          </div>
-          <div className="headline text-center small-12 columns">
-            <h1>The Dwarf Underground</h1>
-            <h3>Delving deep for the <span className="gold">shiniest</span> news</h3>
-          </div>
-        </div>
-
+        <Header />
         <main className="expanded row">
           <div className="large-8 medium-12 columns article">
             <h2 className="article-title">Gold Madness - Fact or Fiction?</h2>
@@ -31,8 +16,8 @@ class App extends Component {
               <div className="author-info">
                 <p className="author-name">By Domri, son of Flug</p>
                 <p className="date">on 28 April, 3018 of the Third Age</p>
-              </div>
             </div>
+        </div>
             <section className="article-body">
               <p><span className="article-start gold">E</span>psum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum. Defacto lingo est igpay atinlay. Marquee selectus non provisio incongruous feline nolo contendre. Gratuitous octopus niacin, sodium glutimate. Quote meon an estimate et non interruptus stadium.</p>
 
