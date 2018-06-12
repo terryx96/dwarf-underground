@@ -1,17 +1,8 @@
-import React, {Component} from 'react';
+import React, {Component} from 'react'
 
-class Comment extends Component {
+class Comment extends Component{
     render(){
-        return(
-            <form onSubmit = {this.comment.bind(this)}>
-                <input type = "text" placeholder = "comment..."></input>
-            </form>
-        );
-    }
-
-    comment(ev){
-        ev.preventDefault();
-        alert("Hello");
+        return <li>{this.props.text}</li>
     }
 }
 
